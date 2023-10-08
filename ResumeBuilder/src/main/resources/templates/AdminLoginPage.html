@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="LoginPage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>ADMIN</header>
+    <form action="AdminPanel.html">
+      <div class="field user">
+        <div class="input-area">
+          <input type="text" placeholder="Username">
+          <i class="icon fas fa-solid fa-user"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Username can't be blank</div>
+      </div>
+
+      <div class="field password">
+        <div class="input-area">
+          <input type="password" placeholder="Password">
+          <i class="icon fas fa-lock"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Password can't be blank</div>
+      </div>
+      <input type="submit" value="Login">
+      <div class="sign-txt">Student? <a href="studentlogin.html">Back to student login</a></div>
+    </form>
+  </div>
+
+  <script src="AdminScript.js"></script>
+
+</body>
+</html>
